@@ -9,6 +9,8 @@ tags:
 publish: true
 ---
 
+### Normal bash
+
 ```bash
 # 获取当前配置的镜像地址
 pnpm get registry
@@ -33,4 +35,11 @@ pnpm remove packageName -Dw
 
 # 升级版本
 pnpm add -g pnpm to update
+```
+
+### Error
+#### win下使用pnpm或者yarn报错
+```bash
+# 使用管理员CMD执行下面命令然后选All
+set-ExecutionPolicy RemoteSigned
 ```
