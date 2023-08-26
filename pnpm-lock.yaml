@@ -412,11 +412,11 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@mdit-vue/shared@0.12.0:
-    resolution: {integrity: sha512-E+sGSubhvnp+Gmb2hJXFDxdLwwQD1H52EVbA4yrxxI5q/cwtnPIN2eJU3zlZB9KcvzXYDFFwt/x2mfhK8RZKBg==}
+  /@mdit-vue/shared@0.12.1:
+    resolution: {integrity: sha512-bXgd0KThe4jC2leCFDFsyrudXIckvTwV4WnQK/rRMrXq0/BAuVdSNdIv1LGCWZxD5+oDyPyEPd0lalTIFwqsmg==}
     dependencies:
       '@mdit-vue/types': 0.12.0
-      '@types/markdown-it': 12.2.3
+      '@types/markdown-it': 13.0.0
       markdown-it: 13.0.1
     dev: false
 
@@ -500,7 +500,7 @@ packages:
   /@sugarat/theme@0.1.41(vitepress@1.0.0-beta.2)(vue@3.2.47):
     resolution: {integrity: sha512-52eJwFXKWXFraT5Zrytxcq5c8jMRrjgtOrxvVeqMoOOb9f/BMsXbFmaoyAS96PomT4tyDmKS9sMb0WjxPH9ttg==}
     dependencies:
-      '@mdit-vue/shared': 0.12.0
+      '@mdit-vue/shared': 0.12.1
       '@mermaid-js/mermaid-mindmap': 9.3.0
       '@vue/shared': 3.3.4
       '@vueuse/core': 9.13.0(vue@3.2.47)
@@ -508,8 +508,8 @@ packages:
       feed: 4.2.2
       gray-matter: 4.0.3
       highlight.js: 11.8.0
-      mermaid: 10.3.1
-      vitepress-plugin-mermaid: 2.0.14(mermaid@10.3.1)(vitepress@1.0.0-beta.2)
+      mermaid: 10.4.0
+      vitepress-plugin-mermaid: 2.0.14(mermaid@10.4.0)(vitepress@1.0.0-beta.2)
       vue-command-palette: 0.1.4
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -526,8 +526,8 @@ packages:
     resolution: {integrity: sha512-dsoJGEIShosKVRBZB0Vo3C8nqSDqVGujJU6tPznsBJxNJNwMF8utmS83nvCBKQYPpjCzaaHcrf66iTRpZosLPw==}
     dev: false
 
-  /@types/d3-scale@4.0.3:
-    resolution: {integrity: sha512-PATBiMCpvHJSMtZAMEhc2WyL+hnzarKzI6wAHYjhsonjWJYGq5BXTzQjv4l8m2jO183/4wZ90rKvSeT7o72xNQ==}
+  /@types/d3-scale@4.0.4:
+    resolution: {integrity: sha512-eq1ZeTj0yr72L8MQk6N6heP603ubnywSDRfNpi5enouR112HzGLS6RIvExCzZTraFF4HdzNpJMwA/zGiMoHUUw==}
     dependencies:
       '@types/d3-time': 3.0.0
     dev: false
@@ -556,8 +556,8 @@ packages:
     resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: false
 
-  /@types/markdown-it@12.2.3:
-    resolution: {integrity: sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==}
+  /@types/markdown-it@13.0.0:
+    resolution: {integrity: sha512-mPTaUl5glYfzdJFeCsvhXQwZKdyszNAZcMm5ZTP5SfpTu+vIbog7J3z8Fa4x/Fzv5TB4R6OA/pHBYIYmkYOWGQ==}
     dependencies:
       '@types/linkify-it': 3.0.2
       '@types/mdurl': 1.0.2
@@ -1618,11 +1618,11 @@ packages:
     engines: {node: '>= 8'}
     dev: false
 
-  /mermaid@10.3.1:
-    resolution: {integrity: sha512-hkenh7WkuRWPcob3oJtrN3W+yzrrIYuWF1OIfk/d0xGE8UWlvDhfexaHmDwwe8DKQgqMLI8DWEPwGprxkumjuw==}
+  /mermaid@10.4.0:
+    resolution: {integrity: sha512-4QCQLp79lvz7UZxow5HUX7uWTPJOaQBVExduo91tliXC7v78i6kssZOPHxLL+Xs30KU72cpPn3g3imw/xm/gaw==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
-      '@types/d3-scale': 4.0.3
+      '@types/d3-scale': 4.0.4
       '@types/d3-scale-chromatic': 3.0.0
       cytoscape: 3.26.0
       cytoscape-cose-bilkent: 4.1.0(cytoscape@3.26.0)
@@ -2085,13 +2085,13 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-plugin-mermaid@2.0.14(mermaid@10.3.1)(vitepress@1.0.0-beta.2):
+  /vitepress-plugin-mermaid@2.0.14(mermaid@10.4.0)(vitepress@1.0.0-beta.2):
     resolution: {integrity: sha512-W3MEzrOB0xH8cSsc3ztliVPldTTr8TPZ4KGqC0uNmRKNbwsqT2Tl96R4ZXgqARLLawcb+0vyjU9wnOALRYTdxQ==}
     peerDependencies:
       mermaid: '10'
       vitepress: ^0.21.6 || ^1.0.0 || ^1.0.0-alpha
     dependencies:
-      mermaid: 10.3.1
+      mermaid: 10.4.0
       vitepress: 1.0.0-beta.2(@algolia/client-search@4.18.0)(sass@1.59.2)(search-insights@2.6.0)
     optionalDependencies:
       '@mermaid-js/mermaid-mindmap': 9.3.0
