@@ -99,6 +99,25 @@ git push origin v1.0.0
 git push origin :refs/tags/v1.0.0
 ```
 
+## 清除git中的账号密码缓存
+```bash
+# 清除全局的凭据缓存
+git config --global --unset credential.helper
+# 清除当前仓库的凭据缓存
+git config --unset credential.helper
+# 卸载凭据管理器(从系统移除)
+git credential-manager uninstall
+```
+
+## 配置相关
+```bash
+# 查看全局配置信息
+git config --global --list
+
+# 查看当前仓库的配置信息
+git config --list
+```
+
 ## 提交规范
 + feat：提交新功能
 + fix：修复了bug
