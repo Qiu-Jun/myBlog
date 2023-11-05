@@ -30,17 +30,17 @@ publish: false
 - [Vue中组件和插件有什么区别?](./vue2/components_plugin)
 - [说说你对Vue.observable的了解？](./vue2/observable)
 - [你知道vue中key的原理吗？说说你对它的理解？](./vue2/key)
-<!-- 
-- [面试官：怎么缓存当前的组件？缓存后怎么更新？说说你对keep-alive的理解是什么？](https://github.com/febobo/web-interview/issues/19)
-- [面试官：你有写过自定义指令吗？自定义指令的应用场景有哪些？](https://github.com/febobo/web-interview/issues/21)
-- [面试官：Vue中的过滤器了解吗？过滤器的应用场景有哪些？](https://github.com/febobo/web-interview/issues/22)
-- [面试官：什么是虚拟DOM？如何实现一个虚拟DOM？说说你的思路](https://github.com/febobo/web-interview/issues/23)
-- [面试官：了解过vue中的diff算法吗？说说看](https://github.com/febobo/web-interview/issues/24)
-- [面试官：SSR解决了什么问题？有做过SSR吗？你是怎么做的？](https://github.com/febobo/web-interview/issues/27)
-- [面试官：说下你的Vue项目的目录结构，如果是大型项目你该怎么划分结构和划分组件呢？](https://github.com/febobo/web-interview/issues/28)
-- [面试官：Vue要做权限管理该怎么做？控制到按钮级别的权限怎么做？](https://github.com/febobo/web-interview/issues/29)
-- [面试官：跨域是什么？Vue项目中你是如何解决跨域的呢？](https://github.com/febobo/web-interview/issues/30)
-- [面试官：Vue3有了解过吗？能说说跟Vue2的区别吗？](https://github.com/febobo/web-interview/issues/33) -->
+- [自定义指令是什么吗？应用场景有哪些？](./vue2/directive)
+- [Vue中的过滤器了解吗？过滤器的应用场景有哪些？](./vue2/filter)
+- [怎么缓存当前的组件？缓存后怎么更新？说说你对keep-alive的理解是什么？](./vue2/keepAlive)
+- [什么是虚拟DOM？如何实现一个虚拟DOM？说说你的思路](./vue2/vnode)
+- [SSR解决了什么问题？有做过SSR吗？你是怎么做的？](./vue2/ssr)
+- [Vue3有了解过吗？能说说跟Vue2的区别吗？](./vue2/vue3_vue2)
+
+## Vue3
+- [Vue3.0性能提升主要是通过哪几方面体现的？](./vue3/performance)
+- [Vue3.0里为什么要用 Proxy API 替代 defineProperty API ？](./vue3/proxy)
+- [说说Vue 3.0中Treeshaking特性？举例说明一下？](./vue3/treeshaking)
 
 ## 小程序
 - [说说你对微信小程序的理解？优缺点？](./miniprogram/mini)
