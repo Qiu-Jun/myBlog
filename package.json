@@ -9,8 +9,9 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@sugarat/theme": "^0.1.32",
+    "@sugarat/theme": "^0.1.41",
     "element-plus": "^2.3.4",
+    "pagefind": "1.0.0-alpha.10",
     "vue": "^3.2.47"
   },
   "devDependencies": {
