@@ -26,26 +26,6 @@ const blogTheme = getThemeConfig({
   },
   // 开启离线的全文搜索支持（如构建报错可注释下面的配置再次尝试）
   search: 'pagefind',
-  popover: {
-    title: '公告',
-    body: [
-      {
-        type: 'text',
-        content: 'vuepress迁移vitepree 🎉🎉'
-      },
-      { type: 'text', content: '可能存在部分问题，如发现问题请到gitee提交issue,谢谢' },
-      // {
-      //   type: 'image',
-      //   src: 'https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210'
-      // },
-      {
-        type: 'button',
-        content: 'gitee',
-        link: 'https://gitee.com/juneqiu/blog_build/issues'
-      }
-    ],
-    duration: 0
-  }
 })
 
 const basePath = '/blog_build/'
@@ -85,7 +65,7 @@ export default defineConfig({
   themeConfig: {
     lastUpdatedText: '上次更新于',
     footer: {
-      message: '自定义底部内容',
+      message: 'June Blog',
       copyright:
         'MIT Licensed | <a target="_blank" href="#"> June </a>'
     },
