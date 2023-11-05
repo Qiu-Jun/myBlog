@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.3.4
     version: 2.3.4(vue@3.2.47)
   pagefind:
-    specifier: 1.0.0-alpha.10
-    version: 1.0.0-alpha.10
+    specifier: ^1.0.3
+    version: 1.0.3
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -480,40 +480,40 @@ packages:
       fastq: 1.15.0
     dev: false
 
-  /@pagefind/darwin-arm64@1.0.0-alpha.10:
-    resolution: {integrity: sha512-npjow0ZhicK47KqPcS4qtlWft2kV0jClyEh0iuumdzJstt4PTacapuyxUAIm5NRR0GH2XoLyaH+TZzaaOmMuJw==}
+  /@pagefind/darwin-arm64@1.0.3:
+    resolution: {integrity: sha512-vsHDtvao3W4iFCxVc4S0BVhpj3E2MAoIVM7RmuQfGp1Ng22nGLRaMP6FguLO8TMabRJdvp4SVr227hL4WGKOHA==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@pagefind/darwin-x64@1.0.0-alpha.10:
-    resolution: {integrity: sha512-WYik242Lz0Qv+eTD0brqkE6kndHMDoG7kD8WvdJPKzCSA3MHXVCYm9OyG8EWAWLYxSaDCI+Dx5+NZ1crcQ3Hbw==}
+  /@pagefind/darwin-x64@1.0.3:
+    resolution: {integrity: sha512-NhEXHHYmB/hT6lx5rCcmnVTxH+uIkMAd43bzEqMwHQosqTZEIQfwihmV39H+m8yo7jFvz3zRbJNzhAh7G4PiwA==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@pagefind/linux-arm64@1.0.0-alpha.10:
-    resolution: {integrity: sha512-puc21zq/AsQAqAKKqaBsS7lWy16XYjNt2qssTIfhWXmzVQ1jl3wbUK5jm1rvjco5CQAq5cH+y0QdOwrFeuGo3w==}
+  /@pagefind/linux-arm64@1.0.3:
+    resolution: {integrity: sha512-RGsMt4AmGT8WxCSeP09arU7Za6Vf/We4TWHVSbY7vDMuwWql9Ngoib/q1cP9dIAIMdkXh9ePG/S3mGnJYsdzuQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@pagefind/linux-x64@1.0.0-alpha.10:
-    resolution: {integrity: sha512-SfTd1ABl4otyEiu8rXqLY+tF78yUcfhNW7h4TsgJW8smIKgLJu0CO3YGBze+ddmHGU3dLDCJ5Z+AgHc//VUGfg==}
+  /@pagefind/linux-x64@1.0.3:
+    resolution: {integrity: sha512-o+VCKaqImL42scSH1n5gUfppYSNyu3BuGTvtKKgWHmycbL+A3fkFH+ZOFbaLeN7LVTvJqJIOYbk4j2yaq9784Q==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@pagefind/windows-x64@1.0.0-alpha.10:
-    resolution: {integrity: sha512-GevBJZ+O0V/2VcNNaBrdWa1NFf6hg2mREhaj3o35WBYCOMSoZmofKuKdLI/w5X0v2AiMbM7CRhOlLwqqW4gKuQ==}
+  /@pagefind/windows-x64@1.0.3:
+    resolution: {integrity: sha512-S+Yq4FyvXJm4F+iN/wRiLvEEF8Xs9lTKGtQGaRHXJslQyl65dytDDPIULXJXIadrDbnMrnTt4C2YHmEUIyUIHg==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -1948,15 +1948,15 @@ packages:
     resolution: {integrity: sha512-Wj7+EJQ8mSuXr2iWfnujrimU35R2W4FAErEyTmJoJ7ucwTn2hOUSsRehMb5RSYkxXGTM7Y9QpvPmp++w5ftoJw==}
     dev: false
 
-  /pagefind@1.0.0-alpha.10:
-    resolution: {integrity: sha512-ewzRIDzU4HsAaca9rzOFaipMctEoA0XIFyNIDfy1mPM98HCEeTFcZ3Lp4+KcPHZLadsdjLbFLcBFBIAeWisbQw==}
+  /pagefind@1.0.3:
+    resolution: {integrity: sha512-ws7kmMxW6OuxzsOjj3YAx6TYq/54MiE3wfyBM3J5CInbZyBBvM2Z8c8IYvnMkBcb5v2EoB9DewXEekOEiDRu5g==}
     hasBin: true
     optionalDependencies:
-      '@pagefind/darwin-arm64': 1.0.0-alpha.10
-      '@pagefind/darwin-x64': 1.0.0-alpha.10
-      '@pagefind/linux-arm64': 1.0.0-alpha.10
-      '@pagefind/linux-x64': 1.0.0-alpha.10
-      '@pagefind/windows-x64': 1.0.0-alpha.10
+      '@pagefind/darwin-arm64': 1.0.3
+      '@pagefind/darwin-x64': 1.0.3
+      '@pagefind/linux-arm64': 1.0.3
+      '@pagefind/linux-x64': 1.0.3
+      '@pagefind/windows-x64': 1.0.3
     dev: false
 
   /picocolors@1.0.0:

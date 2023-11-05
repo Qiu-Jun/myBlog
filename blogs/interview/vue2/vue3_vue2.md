@@ -119,10 +119,6 @@ Vue 3 中需要关注的一些新功能包括：
 
 我们可以将其生成在`canvas`画布上
 
- ![](/imgs/interview/da4437845ec54eb3829313c92fc81afe~tplv-k3u1fbpfcp-watermark.image)
-
-
-
 关于`createRenderer`，我们了解下基本使用，就不展开讲述了
 
 ```js
