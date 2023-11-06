@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2023-06-28 22:05:15
+ * @LastEditTime: 2023-11-07 01:04:36
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -85,6 +85,12 @@ export default defineConfig({
       {
         text: "面试",
           link: "/blogs/interview/index"
+      },
+      {
+        text: "Node",
+        items: [
+          { text: "Nestjs", link: "/blogs/node/nest" },
+        ]
       },
       // {
       //   text: "前端",

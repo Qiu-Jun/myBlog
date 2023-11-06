@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@element-plus/icons-vue':
     specifier: ^2.1.0
@@ -528,10 +524,10 @@ packages:
       '@mermaid-js/mermaid-mindmap': 9.3.0
       '@vue/shared': 3.3.4
       '@vueuse/core': 9.13.0(vue@3.2.47)
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       gray-matter: 4.0.3
-      mermaid: 10.6.0
-      vitepress-plugin-mermaid: 2.0.13(mermaid@10.6.0)(vitepress@1.0.0-beta.2)
+      mermaid: 10.6.1
+      vitepress-plugin-mermaid: 2.0.13(mermaid@10.6.1)(vitepress@1.0.0-beta.2)
       vitepress-plugin-pagefind: 0.2.10
       vitepress-plugin-rss: 0.1.3
       vitepress-plugin-tabs: 0.2.0(vitepress@1.0.0-beta.2)(vue@3.2.47)
@@ -1428,8 +1424,8 @@ packages:
       is-extendable: 0.1.1
     dev: false
 
-  /fast-glob@3.3.1:
-    resolution: {integrity: sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==}
+  /fast-glob@3.3.2:
+    resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -1699,8 +1695,8 @@ packages:
     engines: {node: '>= 8'}
     dev: false
 
-  /mermaid@10.6.0:
-    resolution: {integrity: sha512-Hcti+Q2NiWnb2ZCijSX89Bn2i7TCUwosBdIn/d+u63Sz7y40XU6EKMctT4UX4qZuZGfKGZpfOeim2/KTrdR7aQ==}
+  /mermaid@10.6.1:
+    resolution: {integrity: sha512-Hky0/RpOw/1il9X8AvzOEChfJtVvmXm+y7JML5C//ePYMy0/9jCEmW1E1g86x9oDfW9+iVEdTV/i+M6KWRNs4A==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
       '@types/d3-scale': 4.0.6
@@ -2166,13 +2162,13 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitepress-plugin-mermaid@2.0.13(mermaid@10.6.0)(vitepress@1.0.0-beta.2):
+  /vitepress-plugin-mermaid@2.0.13(mermaid@10.6.1)(vitepress@1.0.0-beta.2):
     resolution: {integrity: sha512-2c0ywXHE7kOK88Ygla9aGgkyF2JbfqfjE36JnoljW/3hQTR9rYBmfTFM5tvs4TUjCUfedUYT4CeyNolCY9t3uw==}
     peerDependencies:
       mermaid: '10'
       vitepress: ^0.21.6 || ^1.0.0 || ^1.0.0-alpha
     dependencies:
-      mermaid: 10.6.0
+      mermaid: 10.6.1
       vitepress: 1.0.0-beta.2(@algolia/client-search@4.18.0)(sass@1.59.2)(search-insights@2.6.0)
     optionalDependencies:
       '@mermaid-js/mermaid-mindmap': 9.3.0
@@ -2183,7 +2179,7 @@ packages:
     dependencies:
       '@vue/shared': 3.3.4
       '@vueuse/core': 9.13.0(vue@3.3.4)
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       gray-matter: 4.0.3
       highlight.js: 11.9.0
       javascript-stringify: 2.1.0
@@ -2196,7 +2192,7 @@ packages:
   /vitepress-plugin-rss@0.1.3:
     resolution: {integrity: sha512-Li8cE0As/9FHVPet4I2xtweiSQEPpmgaMNKG4LkOK8B1siYD32yKAUSV0etRZikz56sDfHBTvbYfmiOBpgTn0A==}
     dependencies:
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       feed: 4.2.2
       gray-matter: 4.0.3
     dev: false
@@ -2325,3 +2321,7 @@ packages:
     dependencies:
       sax: 1.3.0
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
