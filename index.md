@@ -5,5 +5,5 @@ blog:
  name: June
  motto: Anything will be better and better.
  inspiring: 穷其道者，归处亦同。
- pageSize: 15
+ pageSize: 10
 ---
