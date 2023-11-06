@@ -5,7 +5,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "deploy": "bash ./scripts/deploy.sh"
+    "deploy:p": "bash ./scripts/deploy.sh cur",
+    "deploy:b": "bash ./scripts/deploy.sh build"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
