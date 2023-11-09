@@ -1,13 +1,11 @@
 ---
 title: 说说你对Node.js 的理解？优缺点？应用场景？
-date: 2022-01-28
+date: '2023-11-07'
 categories:
-    - 前端
-    - Vue
+    - Node
 tags:
-    - 前端
-    - Vue
-publish: false
+    - Node
+publish: true
 ---
 
 
@@ -64,3 +62,8 @@ publish: false
 - 第五大类：操作数据库、为前端和移动端提供基于`json`的API
 
 其实，`Nodejs`能实现几乎一切的应用，只考虑适不适合使用它
+
+#### 参考文献
+
+- https://baike.baidu.com/item/%E7%AE%97%E6%B3%95/209025
+- https://lucifer.ren/blog/2019/09/18/algorthimn-fe-1/

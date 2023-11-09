@@ -50,4 +50,6 @@ publish: false
 - [说说微信小程序的实现原理？](./miniprogram/webView_jscore)
 
 ## NodeJs
-- [说说你对Node.js 的理解？优缺点？应用场景？](./node/nodejs)
+- [说说你对Node的理解？优缺点？应用场景？](./node/nodejs)
+- [说说对Node中的 Buffer 的理解？应用场景？](./node/buffer)
+- [如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?](./node/pagination)
