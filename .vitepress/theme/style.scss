@@ -1,7 +1,9 @@
+:root {
+  --vp-c-brand-2: var(--el-color-primary);
+}
 .VPHome {
   // 自定义首页背景图
   &::before {
-    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
     background-image: url(./assets/bg.webp);
     background-size: cover;
   }

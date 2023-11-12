@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@sugarat/theme": "^0.2.6",
+    "@sugarat/theme": "^0.2.7",
     "element-plus": "^2.3.4",
     "pagefind": "^1.0.3",
     "vue": "^3.2.47"
