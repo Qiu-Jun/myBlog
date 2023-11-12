@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2023-11-07 02:33:03
+ * @LastEditTime: 2023-11-12 20:39:20
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -69,7 +69,7 @@ export default defineConfig({
       copyright:
         'MIT Licensed | <a target="_blank" href="#"> June </a>'
     },
-    logo: '/blog_build/avatar.jpeg',
+    logo: '/avatar.jpeg',
     // editLink: {
     //   pattern:
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
