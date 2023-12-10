@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2023-11-12 20:39:20
+ * @LastEditTime: 2023-12-10 20:39:51
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -103,6 +103,13 @@ export default defineConfig({
       //   text: "Python",
       //   link: "/blogs/python"
       // },
+      {
+        text: "我的作品",
+        items: [
+          { text: "参与的开源", link: "/products/github" },
+          { text: "工作作品", link: "/products/works" },
+        ]
+      },
       {
         text: '关于我',
         link: '/other/about'
