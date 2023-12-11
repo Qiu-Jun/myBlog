@@ -30,7 +30,7 @@ Mall-Cook 是一个基于 vue 开发的可视化商城搭建平台，包括多�
 [预览地址](https://nihaojob.github.io/vue-fabric-editor/#/)
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
     <img style='margin:0 5px' src='https://badgen.net/github/stars/nihaojob/vue-fabric-editor' />
-    <img style='margin:0 5px' src='https://badgen.net/github/forks/nihaojob/vue-fabric-editork' />
+    <img style='margin:0 5px' src='https://badgen.net/github/forks/nihaojob/vue-fabric-editor' />
     <img style='margin:0 5px' src='https://img.shields.io/badge/Vue3-42b983?logo=javascript&logoColor=fff&style=flat' />
     <img style='margin:0 5px' src='https://img.shields.io/badge/Vite-FFA500?logo=travis&logoColor=fff&style=flat' />
     <img style='margin:0 5px' src='https://img.shields.io/badge/Fabricjs-1E90FF?logo=javascript&logoColor=fff&style=flat' />
