@@ -58,6 +58,7 @@ Mall-Cook 是一个基于 vue 开发的可视化商城搭建平台，包括多�
 [Githut地址](https://github.com/Qiu-Jun/wx_lovers)
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
     <img style='margin:0 5px' src='https://badgen.net/github/stars/Qiu-Jun/wx_lovers' />
+    <img style='margin:0 5px' src='https://badgen.net/github/forks/Qiu-Jun/wx_lovers' />
     <img style='margin:0 5px' src='https://img.shields.io/badge/Nodejs-42b983?logo=javascript&logoColor=fff&style=flat' />
 </div>
 
