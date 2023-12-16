@@ -12,6 +12,8 @@ publish: false
 
 ### Mall-Cook(项目管理者之一)
 [Githut地址](https://github.com/wangyuan389/mall-cook)
+[预览地址](http://139.196.223.93:4000/#/login)
+
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
     <img style='margin:0 5px' src='https://badgen.net/github/stars/wangyuan389/mall-cook' />
     <img style='margin:0 5px' src='https://badgen.net/github/forks/wangyuan389/mall-cook' />
@@ -26,8 +28,8 @@ Mall-Cook 是一个基于 vue 开发的可视化商城搭建平台，包括多�
 
 ### vue-fabric-editor(项目管理者之一)
 [Githut地址](https://github.com/nihaojob/vue-fabric-editor)
-
 [预览地址](https://nihaojob.github.io/vue-fabric-editor/#/)
+
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
     <img style='margin:0 5px' src='https://badgen.net/github/stars/nihaojob/vue-fabric-editor' />
     <img style='margin:0 5px' src='https://badgen.net/github/forks/nihaojob/vue-fabric-editor' />
