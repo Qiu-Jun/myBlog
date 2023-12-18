@@ -12,7 +12,7 @@ publish: false
 
 ### Mall-Cook(项目管理者之一)
 [Githut地址](https://github.com/wangyuan389/mall-cook)
-[预览地址](http://139.196.223.93:4000/#/login)
+[预览地址](http://www.sunmao-design.top/#/managet)
 
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
     <img style='margin:0 5px' src='https://badgen.net/github/stars/wangyuan389/mall-cook' />
