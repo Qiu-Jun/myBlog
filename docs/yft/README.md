@@ -1,3 +1,15 @@
+---
+title: yft-design简介
+date: '2024-03-09 11:10:00'
+sidebar: false
+categories:
+    - 其他
+tags:
+    - 其他
+publish: true
+---
+
+
 ![WechatIMG2237.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5865585512aa4efd8435bf3211538d1f~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2866&h=1630&s=957001&e=png&b=fbfbfb)
 
 > `yft-design`是一款美观且功能强大的在线设计工具，具备海报设计和图片编辑功能，基于fabric.js v6的开源版【稿定设计】。适用于多种场景，如海报生成、电商产品图制作、文章长图设计、视频/公众号封面编辑等.`适配稿定设计导出pdf还原`、支持`导入psd`、`导出图片，svg，pdf`
