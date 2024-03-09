@@ -43,6 +43,23 @@ Mall-Cook 是一个基于 vue 开发的可视化商城搭建平台，包括多�
 
 ***
 
+### yft-design(项目管理者之一)
+[Githut地址](https://github.com/dromara/yft-design.git)
+[预览地址](https://yft.design)
+
+<div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">
+    <img style='margin:0 5px' src='https://badgen.net/github/stars/dromara/yft-design' />
+    <img style='margin:0 5px' src='https://badgen.net/github/forks/dromara/yft-design' />
+    <img style='margin:0 5px' src='https://img.shields.io/badge/Vue3-42b983?logo=javascript&logoColor=fff&style=flat' />
+    <img style='margin:0 5px' src='https://img.shields.io/badge/Vite-FFA500?logo=travis&logoColor=fff&style=flat' />
+    <img style='margin:0 5px' src='https://img.shields.io/badge/Fabricjs-1E90FF?logo=javascript&logoColor=fff&style=flat' />
+</div>
+
+#### 简介
+基于 fabric.js v6 和 Vue 开发的插件化图片编辑器
+
+***
+
 ### color-gradient-picker-vue3
 [Github地址](https://github.com/Qiu-Jun/color-gradient-picker-vue3)
 <div style="display:flex;justify-content:flex-start;align-items:center;margin-bottom:10px;">

@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2023-12-10 20:39:51
+ * @LastEditTime: 2023-12-22 22:13:08
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -12,20 +12,33 @@ const blogTheme = getThemeConfig({
   // 文章默认作者
   author: 'June',
   // 友链
-  friend: [
-    {
-      nickname: '俊逸的博客',
-      des: '一枚主职Java、副职前端的程序猿',
-      avatar:
-        'https://lijunyi2.github.io/blog/logo.png',
-      url: 'https://lijunyi2.github.io/blog'
-    }
-  ],
+  friend: {
+    list: [
+      {
+        nickname: '俊逸的博客',
+        des: '一枚主职Java、副职前端的程序猿',
+        avatar:
+          'https://lijunyi2.github.io/blog/logo.png',
+        url: 'https://lijunyi2.github.io/blog'
+      }
+    ],
+    random: true,
+    limit: 3
+  },
   recommend: {
     showSelf: true
   },
   // 开启离线的全文搜索支持（如构建报错可注释下面的配置再次尝试）
   search: 'pagefind',
+  footer: {
+    message: 'June Blog',
+    copyright:
+      'MIT Licensed | June ',
+    // icpRecord: {
+    //   name: '备案号',
+    //   link: 'https://beian.miit.gov.cn/'
+    // }
+  },
 })
 
 const basePath = '/blog_build/'
@@ -64,11 +77,6 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     lastUpdatedText: '上次更新于',
-    footer: {
-      message: 'June Blog',
-      copyright:
-        'MIT Licensed | <a target="_blank" href="#"> June </a>'
-    },
     logo: '/avatar.jpeg',
     // editLink: {
     //   pattern:
