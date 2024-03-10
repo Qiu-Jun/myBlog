@@ -89,7 +89,6 @@ Mall-Cook 是一个基于 vue 开发的可视化商城搭建平台，包括多�
 |  项目名称 |     Github地址     |   预览地址  |  介绍  |
 |   ----   |   ----    |   ----  |   ---    |
 |  sugar-blog  |  [Github](https://github.com/ATQQ/sugar-blog)  |  本博客 | vitepress博客主题  |
-|  yft-design  | [Github](https://github.com/dromara/yft-design) | [体验地址](https://yft.design/) | 基于fabric.js的图片设计 |
 |  vue-blog-community  | [Github](https://github.com/xingxi521/vue-blog-community) | 无 | 基于VUE全家桶+AntdForVue+koa2+mongo社区博 |
 |  electron-fabric-editor  | [Github](https://github.com/Qiu-Jun/electron-fabric-editor) | 无 | vue-fabric-editor的electron版 |
 |  wx-signture  | [Github](https://github.com/Qiu-Jun/wx-signture) | 无 | 微信原生手写签名 |
