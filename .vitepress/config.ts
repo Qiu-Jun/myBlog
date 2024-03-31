@@ -4,13 +4,39 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2023-12-22 22:13:08
+ * @LastEditTime: 2024-03-31 09:06:21
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
 const blogTheme = getThemeConfig({
   // 文章默认作者
   author: 'June',
+  // 看板娘
+  oml2d: {
+    mobileDisplay: true,
+    dockedPosition: 'right',
+    models: [
+      {
+        "path": "https://model.oml2d.com/HK416-1-normal/model.json",
+        "position": [-100, 20],
+        "scale": 0.08,
+        "stageStyle": {
+          "height": 450
+        }
+      },
+      {
+        "path": "https://model.oml2d.com/Pio/model.json",
+        "scale": 0.4,
+        "position": [-100, 20],
+        "stageStyle": {
+          "height": 300
+        }
+      },
+      {
+        path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+      }
+    ]
+  },
   // 友链
   friend: {
     list: [
