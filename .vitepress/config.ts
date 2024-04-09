@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2024-03-31 09:06:21
+ * @LastEditTime: 2024-04-09 22:26:44
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -37,9 +37,16 @@ const blogTheme = getThemeConfig({
       }
     ]
   },
-  // 友链
+  // 友链 
   friend: {
     list: [
+      {
+        nickname: '小徒弟',
+        des: '',
+        avatar:
+          '/avatar.jpeg',
+        url: 'https://wohu-weixi.gitee.io/blog_build/'
+      },
       {
         nickname: '俊逸的博客',
         des: '一枚主职Java、副职前端的程序猿',
