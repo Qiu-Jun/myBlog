@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2024-04-09 22:26:44
+ * @LastEditTime: 2024-04-10 22:05:29
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -41,19 +41,19 @@ const blogTheme = getThemeConfig({
   friend: {
     list: [
       {
-        nickname: '小徒弟',
-        des: '',
-        avatar:
-          '/avatar.jpeg',
-        url: 'https://wohu-weixi.gitee.io/blog_build/'
-      },
-      {
         nickname: '俊逸的博客',
         des: '一枚主职Java、副职前端的程序猿',
         avatar:
           'https://lijunyi2.github.io/blog/logo.png',
         url: 'https://lijunyi2.github.io/blog'
-      }
+      },
+      {
+        nickname: '小徒弟',
+        des: '',
+        avatar:
+          'https://wohu-weixi.gitee.io/blog_build/avatar.jpg',
+        url: 'https://wohu-weixi.gitee.io/blog_build'
+      },
     ],
     random: true,
     limit: 3
@@ -81,7 +81,7 @@ export default defineConfig({
   extends: blogTheme,
   lang: 'zh-cn',
   title: 'June',
-  description: '穷其道者，归处亦同。',
+  description: '面对恐惧最好的办法就是面对恐惧!',
   vite: {
     optimizeDeps: {
       include: ['element-plus'],
