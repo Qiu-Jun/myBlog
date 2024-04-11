@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June 1601745371@qq.com
- * @LastEditTime: 2024-04-11 16:04:26
+ * @LastEditTime: 2024-04-11 16:25:06
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
