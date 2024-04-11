@@ -3,8 +3,8 @@
  * @version: 
  * @Author: June
  * @Date: 2023-06-25 15:54:36
- * @LastEditors: June
- * @LastEditTime: 2024-04-10 22:05:29
+ * @LastEditors: June 1601745371@qq.com
+ * @LastEditTime: 2024-04-11 16:04:26
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -54,8 +54,15 @@ const blogTheme = getThemeConfig({
           'https://wohu-weixi.gitee.io/blog_build/avatar.jpg',
         url: 'https://wohu-weixi.gitee.io/blog_build'
       },
+      {
+        nickname: '东咸',
+        des: '杭州彭于晏分晏',
+        avatar:
+          '',
+        url: 'https://zhao_juchang.gitee.io/zjc-vite-press'
+      },
     ],
-    random: true,
+    random: false,
     limit: 3
   },
   recommend: {
