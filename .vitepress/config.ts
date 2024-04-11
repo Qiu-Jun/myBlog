@@ -3,8 +3,8 @@
  * @version: 
  * @Author: June
  * @Date: 2023-06-25 15:54:36
- * @LastEditors: June 1601745371@qq.com
- * @LastEditTime: 2024-04-11 16:25:06
+ * @LastEditors: June
+ * @LastEditTime: 2024-04-11 20:59:34
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -58,7 +58,7 @@ const blogTheme = getThemeConfig({
         nickname: '东咸',
         des: '杭州彭于晏分晏',
         avatar:
-          '',
+          'https://zhao_juchang.gitee.io/zjc-vite-press/dongxianLogo.jpg',
         url: 'https://zhao_juchang.gitee.io/zjc-vite-press'
       },
     ],
