@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2024-10-10 23:48:04
+ * @LastEditTime: 2024-10-11 00:09:27
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -74,7 +74,7 @@ const blogTheme = getThemeConfig({
   },
 })
 
-const basePath = '/blog_build/'
+const basePath = './'
 
 export default defineConfig({
   base: basePath,
