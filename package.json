@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@sugarat/theme": "^0.2.30",
+    "@sugarat/theme": "^0.4.13",
     "element-plus": "^2.3.4",
     "pagefind": "^1.0.4",
     "vue": "^3.4.21",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "sass": "^1.59.2",
     "typescript": "^4.9.5",
-    "vitepress": "^1.0.1"
+    "vitepress": "^1.4.0"
   },
   "author": "June",
   "license": "MIT",
