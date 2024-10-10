@@ -13,7 +13,8 @@
     "@sugarat/theme": "^0.2.30",
     "element-plus": "^2.3.4",
     "pagefind": "^1.0.4",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue3-justified-layout": "^0.0.2"
   },
   "devDependencies": {
     "sass": "^1.59.2",
