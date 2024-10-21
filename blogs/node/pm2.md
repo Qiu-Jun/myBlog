@@ -1,18 +1,11 @@
-<!--
- * @Author: June
- * @Description: Description
- * @Date: 2024-10-12 09:48:19
- * @LastEditTime: 2024-10-16 21:11:11
- * @LastEditors: June
--->
 ---
 title: PM2常用命令
 date: '2024-10-12 18:00:00'
 sidebar: true
 categories:
-    - Node
+  - Node
 tags:
-    - Node
+  - Node
 publish: true
 ---
 
