@@ -80,7 +80,8 @@ export function useContext<T>(
 > useContext(context)函数可以传入1个参数，该参数为共享数据对象的实例，useContext函数会返回该共享对象实例的value值
 
 示例代码1
-```ts
+
+```jsx
 import GlobalContext from './global-context'; //引入共享数据对象
 
 function Component(){
@@ -99,7 +100,7 @@ function Component(){
 ```
 
 示例代码2
-```ts
+```tsx
 // 若某React组件一共由3层组件嵌套而成，从外到里分别是AppComponent、MiddleComponent、ChildComponent。AppComponent需要传递数据给ChildComponent。
 
 //global-context.js 
@@ -149,7 +150,7 @@ function ChildComponent(){
 + 父组件为AppComponent、子组件为ChildComponent
 + 父组件需要同时将UserContext、NewsContext的数据同时传递给子组件
 
-```ts
+```tsx
 import React,{ useContext } from 'react'
 
 const UserContext = React.createContext();
@@ -178,7 +179,7 @@ function ChildComponent(){
 
 #### 同时将1个共享数据值传递给多个子组件
 使用<XxxContext.Provider></XxxContext.Provider>标签将多个子组件包裹起来，即可实现。
-```ts
+```tsx
 <XxxContext.Provider value={{name:'puxiao'}}>
     <ComponentA />
     <ComponentB />
