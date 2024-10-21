@@ -10,30 +10,33 @@ publish: false
 ---
 
 ## 概念解释
-> 作用是“勾住”获取由`React.createContext()`创建、`<XxxContext.Provider>`添加设置的共享数据value值。useContext可以替代`<XxxContext.Consumer>`标签，简化获取共享数据的代码
+> 作用是“勾住”获取由`React.createContext()`创建, `<XxxContext.Provider>`添加设置的共享数据value值。useContext可以替代`<XxxContext.Consumer>`标签，简化获取共享数据的代码
 
 原本不同级别的组件之间传递属性值，必须逐层传递，即使中间层的组件不需要这些数据。<br />
 注意：这里说的组件指React所有组件，包含类组件和函数组件。
 
+```txt
 数据层层传递增加了组件的复杂性，降低了可复用性。为了解决这个问题，我们可以使用以下方式：
-+ 在组件顶层或单独的模块中，由React.createContext()创建一个共享数据对象；
-+ 在父组件中添加共享数据对象的引用，通过且只能通过<XxxContext.provider value={{xx:'xxx'}}></XxxContext.provider>的形式将数据传递给子组件。请注意传值必须使用value={obj}这种形式；
-+ 若下一层的子组件用不到共享数据对象中的数据，则可以不做任何属性标签传递；
-+ 若某一层的子组件需要用到共享数据对象的数据，则可通过<XxxContext.Consumer></XxxContext.Consumer>获取到数据；
-+ 在类组件中除了<XxxContext.Consumer>标签，还有另外一种获取共享数据方式：static xxx = XxxContext; 但是这种形式在函数组件中无法使用。
+1：在组件顶层或单独的模块中，由React.createContext()创建一个共享数据对象；
+2：在父组件中添加共享数据对象的引用，通过且只能通过"<XxxContext.provider value={{xx:'xxx'}}></XxxContext.provider>"的形式将数据传递给子组件。请注意传值必须使用value={obj}这种形式；
+3：若下一层的子组件用不到共享数据对象中的数据，则可以不做任何属性标签传递；
+4：若某一层的子组件需要用到共享数据对象的数据，则可通过`<XxxContext.Consumer></XxxContext.Consumer>`获取到数据；
+5: 在类组件中除了`<XxxContext.Consumer>`标签，还有另外一种获取共享数据方式：static xxx = XxxContext; 但是这种形式在函数组件中无法使用。
 
-简而言之<XxxContext.Provider>用来添加共享数据、<XxxContext.Consumer>用来获取共享数据。<br />
+```
+
+简而言之`<XxxContext.Provider>`用来添加共享数据、`<XxxContext.Consumer>`用来获取共享数据。<br />
 备注：provider单词本意为供应者、consumer单词本意为消费者，刚好对应他们相对于共享数据的关系。
 
 #### useContext是来解决什么问题的？
-> useContext是<XxxContext.Consumer>的替代品，可以大量简化获取共享数据值的代码。
+> useContext是`<XxxContext.Consumer>`的替代品，可以大量简化获取共享数据值的代码。
 
 补充说明：
-+ 函数组件和类组件，对于<XxxContext.Provider>、<XxxContext.Consumer>使用方式没有任何差别。
-+ 你可以在函数组件中不使用useContext，继续使用<XxxContext.Consumer>，这都没问题。只不过使用useContext后，可以让获取共享数据相关代码简单一些。
++ 函数组件和类组件，对于`<XxxContext.Provider>`、`<XxxContext.Consumer>`使用方式没有任何差别。
++ 你可以在函数组件中不使用useContext，继续使用`<XxxContext.Consumer>`，这都没问题。只不过使用useContext后，可以让获取共享数据相关代码简单一些。
 
 #### useContext函数源码
-```ts
+```tsx
 //备注：源码采用TypeScript编写，如果不懂TS代码，阅读起来稍显困难
 export function useContext<T>(
   Context: ReactContext<T>,
@@ -178,7 +181,7 @@ function ChildComponent(){
 ```
 
 #### 同时将1个共享数据值传递给多个子组件
-使用<XxxContext.Provider></XxxContext.Provider>标签将多个子组件包裹起来，即可实现。
+使用`<XxxContext.Provider></XxxContext.Provider>`标签将多个子组件包裹起来，即可实现。
 ```tsx
 <XxxContext.Provider value={{name:'puxiao'}}>
     <ComponentA />
