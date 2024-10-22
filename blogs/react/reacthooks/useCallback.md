@@ -33,7 +33,7 @@ export function useCallback<T>(
 > useCallback(callback,deps)函数通常传入2个参数，第1个参数为我们定义的一个“处理函数”，通常为一个箭头函数。第2个参数为该处理函数中存在的依赖变量，请注意凡是处理函数中有的数据变量都需要放入deps中。如果处理函数没有任何依赖变量，可以传入一个空数组[]。
 
 #### useCallback使用示例
-+ 若我们有一个自定组件<Button>，代码如下：
++ 若我们有一个自定组件Button，代码如下：
 ```tsx
 import React from 'react'
 function Button({label,clickHandler}) {
