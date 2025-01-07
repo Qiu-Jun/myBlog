@@ -17,6 +17,9 @@ importers:
       '@sugarat/theme':
         specifier: ^0.4.13
         version: 0.4.13(@element-plus/icons-vue@2.1.0(vue@3.4.21(typescript@4.9.5)))(element-plus@2.3.4(vue@3.4.21(typescript@4.9.5)))(pagefind@1.0.4)(typescript@4.9.5)(vitepress@1.4.0(@algolia/client-search@4.23.2)(async-validator@4.2.5)(postcss@8.4.47)(sass@1.59.2)(search-insights@2.6.0)(typescript@4.9.5))(vue@3.4.21(typescript@4.9.5))
+      color-gradient-picker-vue3:
+        specifier: ^3.0.6
+        version: 3.0.6
       element-plus:
         specifier: ^2.3.4
         version: 2.3.4(vue@3.4.21(typescript@4.9.5))
