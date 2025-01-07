@@ -11,6 +11,8 @@ publish: true
 
 ## 日常提交
 ```bash
+# 拉取远程分支 localName为本地新分支的名字   name是远程需要拉取分支的名字 el: git checkout -b dev origin/dev
+git checkout -b localNama origin/name
 # 开发前切换到自己的分支开发，开发完再合并到master提交
 # 在主分支签出自己的分支
 git checkout -b yourBranchName
