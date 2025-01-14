@@ -1,6 +1,6 @@
 ---
 title: git 日常工作维护
-date: 2022-02-13
+date: '2022-02-13'
 sidebar: true
 categories:
     - 工具
@@ -9,7 +9,7 @@ tags:
 publish: true
 ---
 
-## 日常提交
+## git日常提交
 ```bash
 # 拉取远程分支 localName为本地新分支的名字   name是远程需要拉取分支的名字 el: git checkout -b dev origin/dev
 git checkout -b localNama origin/name
@@ -49,7 +49,7 @@ git commit --amend
 git remote set-url origin XXX
 ```
 
-## 常用操作
+## git常用操作
 + 临时忽略提交文件
 ```bash
 # 忽略
@@ -84,8 +84,10 @@ git reset –-hard origin/master
 git push -f
 ```
 
-## 打tag
+## git打tag
 ```bash
+# 拉取远程的所有tag
+git fetch origin --tags
 # 给某个commit打tag
 # -a是指定tag名字，-m是指定说明信息 commit_id 提交的commit记录id
 git tag -a v1.0.0 -m '第一个版本' commit_id
@@ -101,7 +103,7 @@ git push origin v1.0.0
 git push origin :refs/tags/v1.0.0
 ```
 
-## 清除git中的账号密码缓存
+## git清除git中的账号密码缓存
 ```bash
 # 清除全局的凭据缓存
 git config --global --unset credential.helper
@@ -111,7 +113,7 @@ git config --unset credential.helper
 git credential-manager uninstall
 ```
 
-## 配置相关
+## git配置相关
 ```bash
 # 查看全局配置信息
 git config --global --list
@@ -120,7 +122,7 @@ git config --global --list
 git config --list
 ```
 
-## 提交规范
+## git提交规范
 + feat：提交新功能
 + fix：修复了bug
 + docs：只修改了文档
