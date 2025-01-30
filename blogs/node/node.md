@@ -1,6 +1,6 @@
 ---
 title: Node
-date: '2023-08-14 08:00:00'
+date: 2022-08-14
 sidebar: true
 categories:
     - Node

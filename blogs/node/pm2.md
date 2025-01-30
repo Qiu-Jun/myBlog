@@ -1,6 +1,6 @@
 ---
 title: PM2常用命令
-date: '2024-10-12 18:00:00'
+date: 2024-10-12
 sidebar: true
 categories:
   - Node

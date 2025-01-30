@@ -1,6 +1,6 @@
 ---
 title: Vue3基础
-date: '2022-9-21 18:12:00'
+date: 2022-9-21
 sidebar: true
 categories:
     - Vue

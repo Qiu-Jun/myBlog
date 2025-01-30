@@ -1,6 +1,6 @@
 ---
 title: 数组去重
-date: '2022-01-20 08:00:00'
+date: 2022-01-20 08:00:00
 sidebar: true
 categories:
     - 前端

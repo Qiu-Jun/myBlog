@@ -1,13 +1,6 @@
-<!--
- * @Author: June
- * @Description: Description
- * @Date: 2024-10-11 23:55:52
- * @LastEditTime: 2024-10-12 00:09:09
- * @LastEditors: June
--->
 ---
 title: Nestjs
-date: '2023-11-06 23:08:00'
+date: 2023-11-06
 sidebar: true
 categories:
     - Node

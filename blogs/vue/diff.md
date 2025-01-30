@@ -1,6 +1,6 @@
 ---
 title: 关于vue的diff算法
-date: '2023-01-17 18:00:00'
+date: 2023-01-17
 sidebar: true
 categories:
     - Vue

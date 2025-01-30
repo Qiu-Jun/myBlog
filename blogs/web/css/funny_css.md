@@ -1,6 +1,6 @@
 ---
 title: 有趣的css特效
-date: '2022-12-14 08:00:00'
+date: 2022-12-14
 sidebar: true
 categories:
     - 前端

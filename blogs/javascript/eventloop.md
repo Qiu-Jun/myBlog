@@ -1,6 +1,6 @@
 ---
 title: EventLoop
-date: '2022-02-04 20:10:00'
+date: 2022-02-04 20:10:00
 sidebar: auto
 categories:
     - 前端

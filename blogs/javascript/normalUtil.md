@@ -1,6 +1,6 @@
 ---
 title: 常用方法、正则汇总
-date: '2022-10-05 18:10:00'
+date: 2022-10-05 18:10:00
 sidebar: true
 categories:
     - 前端

@@ -1,6 +1,6 @@
 ---
 title: CSS实现时间轴
-date: '2022-04-17 08:00:00'
+date: 2022-04-17
 sidebar: 'auto'
 categories:
     - 前端

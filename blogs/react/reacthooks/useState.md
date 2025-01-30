@@ -1,6 +1,6 @@
 ---
 title: React Hook - useState
-date: '2024-11-17 18:00:00'
+date: 2024-11-17
 sidebar: true
 categories:
   - React

@@ -1,6 +1,6 @@
 ---
 title: Nestjs集成swagger
-date: '2023-11-06 23:08:00'
+date: 2023-11-06 23:08:00
 sidebar: true
 categories:
     - Node

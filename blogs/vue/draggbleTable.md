@@ -1,6 +1,6 @@
 ---
 title: ElementPlus-ElTable树形拖曳
-date: 2023-08-26 13:00:00
+date: 2023-08-26
 sidebar: true
 categories:
     - Vue

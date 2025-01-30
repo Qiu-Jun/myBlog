@@ -1,6 +1,6 @@
 ---
 title: Vue3使用tinymce以及自定义pdf解析插件
-date: '2023-08-26 09:12:00'
+date: 2023-08-26
 sidebar: true
 categories:
     - Vue

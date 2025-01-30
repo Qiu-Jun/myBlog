@@ -1,6 +1,6 @@
 ---
 title: Promise/A+规范
-date: '2022-07-04 10:40:00'
+date: 2022-07-04 10:40:00
 sidebar: 'auto'
 categories:
     - 前端

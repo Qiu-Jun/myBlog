@@ -1,6 +1,6 @@
 ---
 title: Vue常用自定义指令
-date: '2023-05-13 23:11:00'
+date: 2023-05-13
 sidebar: true
 categories:
     - Vue

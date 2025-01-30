@@ -1,6 +1,6 @@
 ---
 title: React Hook - useCallback
-date: '2024-11-18 18:00:00'
+date: 2024-11-18
 sidebar: true
 categories:
   - React
