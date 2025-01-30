@@ -1,6 +1,6 @@
 ---
 title: git 日常工作维护
-date: '2022-02-13'
+date: 2022-02-13
 sidebar: true
 categories:
     - 工具

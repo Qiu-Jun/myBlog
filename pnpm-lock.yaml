@@ -18,8 +18,8 @@ importers:
         specifier: ^0.4.13
         version: 0.4.13(@element-plus/icons-vue@2.1.0(vue@3.4.21(typescript@4.9.5)))(element-plus@2.3.4(vue@3.4.21(typescript@4.9.5)))(pagefind@1.0.4)(typescript@4.9.5)(vitepress@1.4.0(@algolia/client-search@4.23.2)(async-validator@4.2.5)(postcss@8.4.47)(sass@1.59.2)(search-insights@2.6.0)(typescript@4.9.5))(vue@3.4.21(typescript@4.9.5))
       color-gradient-picker-vue3:
-        specifier: ^3.0.6
-        version: 3.0.6
+        specifier: ^3.1.0
+        version: 3.1.0
       element-plus:
         specifier: ^2.3.4
         version: 2.3.4(vue@3.4.21(typescript@4.9.5))
@@ -754,8 +754,8 @@ packages:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
     engines: {node: '>= 8.10.0'}
 
-  color-gradient-picker-vue3@3.0.6:
-    resolution: {integrity: sha512-9kv1x5qbkVLd6ebT9hCJpHgPenoqkyBIZFMmJNA2a1A10zirHALzHGE2LgvQNl5eoTbXdsONt4sudW+TgDkyBA==}
+  color-gradient-picker-vue3@3.1.0:
+    resolution: {integrity: sha512-AOYjHAjUOS4RI7wHD4X71d7UJ0yJfRCXfGUAeME13CqrCXfFfcKz+Cgn8wO3Kkx2dBtxAOPV+rBX1hHU0aqy+A==}
 
   comma-separated-tokens@2.0.3:
     resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==}
@@ -2392,7 +2392,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  color-gradient-picker-vue3@3.0.6:
+  color-gradient-picker-vue3@3.1.0:
     dependencies:
       lodash-es: 4.17.21
       tinycolor2: 1.6.0

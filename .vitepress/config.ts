@@ -4,7 +4,7 @@
  * @Author: June
  * @Date: 2023-06-25 15:54:36
  * @LastEditors: June
- * @LastEditTime: 2024-10-11 00:16:05
+ * @LastEditTime: 2025-01-30 10:26:26
  */
 import { getThemeConfig, defineConfig } from '@sugarat/theme/node'
 
@@ -46,13 +46,6 @@ const blogTheme = getThemeConfig({
         avatar:
           'https://lijunyi2.github.io/blog/logo.png',
         url: 'https://lijunyi2.github.io/blog'
-      },
-      {
-        nickname: '东咸',
-        des: '杭州彭于晏分晏',
-        avatar:
-          'https://zhao_juchang.gitee.io/zjc-vite-press/dongxianLogo.jpg',
-        url: 'https://zhao_juchang.gitee.io/zjc-vite-press'
       },
     ],
     random: false,
