@@ -120,6 +120,14 @@ git config --global --list
 
 # 查看当前仓库的配置信息
 git config --list
+
+# 设置代理
+git config --global http.proxy http://your_vpn_proxy_address:your_vpn_proxy_port
+git config --global https.proxy https://your_vpn_proxy_address:your_vpn_proxy_port
+
+# 取消代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 
 ## git提交规范
