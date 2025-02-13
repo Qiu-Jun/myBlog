@@ -124,6 +124,9 @@ git config --list
 # 设置代理
 git config --global http.proxy http://your_vpn_proxy_address:your_vpn_proxy_port
 git config --global https.proxy https://your_vpn_proxy_address:your_vpn_proxy_port
+# 例子
+git config --global http.proxy http://127.0.0.1:7890
+git config --global http.proxy https://127.0.0.1:7890
 
 # 取消代理
 git config --global --unset http.proxy
