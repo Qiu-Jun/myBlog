@@ -28,4 +28,4 @@ html2canvas(dom,{
 ```
 
 ## html2canvas的background-clip:text修复
-> html2canvas不支持background-clip:text, [使用此修改源码后的文件](../../public/js/html2canvas.min.js)， 版本v1.4.1
+> html2canvas不支持background-clip:text, [使用此修改源码后的文件](/js/html2canvas.min.js)， 版本v1.4.1
