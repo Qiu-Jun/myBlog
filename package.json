@@ -4,6 +4,9 @@
   "private": true,
   "author": "June",
   "license": "MIT",
+  "resolutions": {
+    "oh-my-live2d": "^0.17.0"
+  },
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
