@@ -5,7 +5,7 @@
   "author": "June",
   "license": "MIT",
   "resolutions": {
-    "oh-my-live2d": "^0.17.0"
+    "oh-my-live2d": "^0.19.3"
   },
   "scripts": {
     "dev": "vitepress dev src",
