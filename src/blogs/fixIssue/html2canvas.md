@@ -1,6 +1,6 @@
 ---
 title: html2canvas库使用记录
-date: 2025-11-01 
+date: 2025-01-01 
 categories:
     - 前端
     - Vue
