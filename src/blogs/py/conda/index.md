@@ -36,7 +36,7 @@ conda config --add channels conda-forge
 conda config --set show_channel_urls yes
 ```
 
-#### 中科大镜像
+##### 中科大镜像
 ```bash
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
@@ -46,8 +46,6 @@ conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
 conda config --set show_channel_urls yes
 ```
-
-####
 
 #### 更新conda
 将conda自身更新到最新版本，it is recommended to always keep conda updated to the latest version.  
