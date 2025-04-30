@@ -1,6 +1,6 @@
 ---
 title: python conda 常用命令
-date: '2025-04-228 12:56:00'
+date: '2025-04-28 12:56:00'
 sidebar: true
 categories:
     - python
